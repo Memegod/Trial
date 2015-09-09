@@ -1,0 +1,12 @@
+Algorithm:
+-A series of steps to take input and produce output
+-Recipe
+->Problem Solving Lifecycle 
+        -> 1. Describe the problem 
+	-> 2. Analyze the problem //Input? //Output? //Constraints on input?
+				 //Relationship Information (Equations?)
+	-> 3. (HARD STEP): Design the algorithm //Outline Method //Flow Chart  	
+	-> 4. Test your Algorithm
+	-> 5. Implement Algorithm //Implement means write the code for 
+				 //the Algorithm
+	-> 6. Test Implementation

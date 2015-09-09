@@ -1,0 +1,3 @@
+Edit = Develop (.cpp file)
+Compile = .o File binary file 
+Link = .o link to libraries

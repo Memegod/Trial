@@ -1,0 +1,80 @@
+Checkpoint 1: 
+
+1) Patty needs a program to calculate the depth (h) and radius (r) of her
+
+pan in inches, and would like to know how many fluid ounces of cheesecake this produces.
+
+2a) Input:
+	The program takes two inputs which are both the depth(h) in inches and the radius(r) in inches of the pan.
+
+2b) Output:
+	The program will output the volume of the pan in ounces(z)
+
+2c) There are 2 equations:
+	a) The first takes the input and converts it into inches cubed through the equation v = πr^2h
+	b) The second takes the output of the first and multiplies it by 0.554 ounces per cubic inch giving you your output 
+
+2d) There are 2 restrictions h > 0 and r > 0
+
+
+Checkpoint 2:
+
+1a). 
+	-> 1) Take input // Take in depth (h) and radius (r)
+	-> 2) Compute answer //a) Compute the volume(v)
+			    // v = πr^2h
+			    //b) Compute v to ounces(z)
+			   // z = v(0.554)
+	-> 3) Report result // z is our answer in ounces 
+
+1b).    -> a) Compute the volume(v) ( v = πr^2h )
+	-> b) Compute the volume in ounces (z = v(0.554))
+      
+	
+       |----------|    |=========|
+1c)    |Take Input|--->|Get Input|
+       |----------|    |Depth(h) |
+		       |Radius(r)|
+                       |========||
+				||
+                                \/
+                               ================|
+                               | Compute Volume|
+                               |  v = πr^2h    |            
+                               ================|
+                                               |
+                                               V
+                                         +++++++++++++++++   
+				   	 | Compute Ounces|  
+                                         |  z = v(0.554) |   
+				         +++++++++++++++++
+
+
+Checkpoint 3:
+
+	--------------------------------------------
+	| Input  |  Expected Output  | TraceResult | 
+	|   h=2  |   // v = 25.13    |	//see      |
+	|   d=2  |   z = 13.92       | 	//trace	   | 
+	|        |  //z = output     |	//below	   |		
+	|--------|-------------------|-------------|
+		                     |
+Trace:            		     v
+   _____
+  |d = 2|
+  |h = 2|
+  |_____|	
+     |
+_____V______	
+|v=1608.5   |
+|(v = πr^2h)|
+|___________|__
+              |
+	      |	
+              V
+              ________________
+	      |	z = 13.92     |
+              |( z = v(0.554))|
+	      =================
+
+                                    

@@ -1,0 +1,52 @@
+Proof Work:
+(Statement): If q is odd then n^2 + n is even 
+Proof:
+Suppose n is odd 
+That means n = 2k + 1 for some integer k
+Therefore n^2 + n = (2k + 1)^2 + (2k + 1)
+= 4k^2 + 6k + 2
+= 2(2k^2 + 6k + 1)
+We know that 2k^2 + 2k + 1 is an integer 
+Let j = 2k^2 - 3k -1
+so n^2 + n = 2j
+so n^2 + n is even 
+Q.E.D
+
+Important Material:
+You can never proove a theorem by example 
+You can disproove a theorem by a wrong example 
+ex. The sum of two prime numbers is even 
+
+Proof Work:
+(Statement):If p is prime and q is prime then p+q is even
+This is false,
+Let p = 2 //we know that 2 is prime 
+Let q = 3 //we know that 3 is prime 
+However p + q = 5 and 5 is not even 
+So the conclusion is false 
+Thus the statement is therefore false Q.E.D
+
+(Statement):If p is a perfect square and q is a perfect square then p + q is even 
+//We will disprove this statement using a counterexample 
+Verify Conditions:
+Let p=25, 25 is a perfect square => sqr(25) = 5
+Let q=4, 4 is a perfect square => sqr(4) = 2
+However p+q = 25 + 4 = 29 
+29 is not even, therefore the conclusion is false,
+thus the statement is false Q.E.D 
+
+Other Review:
+In a list of 15 
+there are at least 3 subsets that have the same sum 
+
+How many subsets are there? 
+-> 2^15 
+Smallest possible sum?
+-> must be greater than 0
+Largest possible sum?
+->less than 15(QQQ)
+->less than 15000 different sums
+
+ 
+ 
+

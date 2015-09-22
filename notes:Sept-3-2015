@@ -1,0 +1,91 @@
+Example 1:
+
+|a * c|
+
+(a, c):
+(2, 2)
+(2, 1)
+(3, 1)
+(3, 2)
+(5, 1)
+(5, 2)
+(7, 1)
+(7, 2)
+  
+Example 2:
+#6 on pg 20
+
+sweet: 5 * 4 = 20
+F: set of fruits
+S: set of syrups 
+
+|F| = 5
+|S| = 4
+
+Savory: 3*3 = 9
+
+20 + 9 = 29
+
+Important Material:
+->We say n is even if n = 2k for some integer K
+->We say m is odd if m = 2j + 1 for some integer J
+
+Example on Material:
+
+1003 = 2(501) + 1
+1003 = 2(j) + 1
+
+x is an integer 
+q is another variable
+q = 5(2x + 1) + 4
+= 10x + 9
+= 10x + 8 + 1
+= 2(5x + 4) + 1
+= 2(j) + 1
+
+Binary to Decimal:
+
+101 -> Decimal
+
+101 = 2^2(1) + 2^1(0) + 2^0(1) 
+101 = 4 + 0 + 1
+101 = 5
+
+Proof Work:
+
+(Statement): If n is even than n^2 is even 
+
+Condition = n is even
+Evaluation = n^2 is even
+
+Proof: 
+Suppose that n is even 
+That means n = 2k for some integer k
+Therefore, n^2 = (2k)^2
+= (2k)(2k)
+= (4)k^2
+= 2(2k^2)
+We know 2k^2 is an integer 
+Let j = 2k^2
+Therefore, n^2=2j for an integer j, n^2 is even
+Q.E.D
+
+(Statement): If n is odd than (n^2)+5 is even
+
+Condition = n is odd
+Evaluation = (n^2)+5
+
+Proof: 
+Suppose n is odd
+By definition n = 2k + 1 for some integer K
+So n^2 + 5 = (2k+1)^2 + 5 
+= 4k^2 + 4k + 1 + 5 
+= 4k^2 + 4k + 6 
+= 2(2k^2 + 2k + 3)
+Let j = 2k^2 + 2k + 3
+Then n^2 + 5 = 2j, and 
+j is an integer because k was 
+So n^2 + 5 is even Q.E.D
+
+
+

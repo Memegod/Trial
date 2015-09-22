@@ -1,0 +1,57 @@
+Proof Work:
+(Statement)If a and b are consecutive integers then a^2 + b^2 -1 is a multiple of 4
+
+Needs a Proof...Use correct format from previous notes 
+
+alternate way to solve 
+
+THE CASE method:
+
+Case well a is even
+n = a^2
+m = (a+1)^2
+___________
+Case were a is odd
+n = a^2
+m = (a-1)^2
+
+Important Material:
+
+To show something is a multiple of 4 write as = 4(variable)
+if(a + b + c is a multiple of 4), then(100a + 10b + c is a multiple of 4)
+key step: a+b+c = 9j where j is an element of all integers
+syntax: 100a + 10b + c = 9(variable)
+
+Truth Tables:
+
+Example 1:
+
+If p then q = (p => q)
+
+p = TTFF
+q = TFTF 
+(p=>q) = TFTT
+
+//Hint: the only way to get p => q is false is when p is true but q is false
+
+Example 2:
+
+If p then q and If q then p = (p<==>q) 
+
+p = TTFF
+q = TFTF
+(p<==>q) = TFFT
+
+Example 3:
+
+p = TTTTFFFF
+q = TTFFTTFF
+r = TFTFTFTF
+qVr = TTTFTTTF
+not(qVr) = FFFTFFFT
+p^not(qVr) = FFFTFFFF
+
+//Lol Venn Diagrams are easy guys just literally shade in everything that is false and leave everything that is
+//true unshaded
+ 
+
